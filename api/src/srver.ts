@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.post("/pages", (request, response) => {
-  // Slasvando no banco de dados
+  // Salvando no banco de dados
 
   return response.status(2001).send();
 });
